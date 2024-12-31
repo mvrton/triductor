@@ -14,14 +14,13 @@
     </properties>
 
     <dependencies>
-        <!-- Dependencia de Google Cloud Translate -->
+
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-translate</artifactId>
             <version>2.13.0</version>
         </dependency>
 
-        <!-- Dependencias de JavaFX -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -33,7 +32,7 @@
             <version>17</version>
         </dependency>
 
-        <!-- Dependencia de Jackson para procesamiento de JSON -->
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -43,7 +42,7 @@
 
     <build>
         <plugins>
-            <!-- Plugin para manejar JavaFX -->
+
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
@@ -60,7 +59,6 @@
                 </executions>
             </plugin>
 
-            <!-- Plugin para empaquetar el proyecto en un fat JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -78,7 +76,6 @@
                 </executions>
             </plugin>
 
-            <!-- Plugin para compilar el código con Java 17 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

@@ -40,9 +40,8 @@ public class TranslatorApp extends Application {
         Label translatedTextLabel = new Label();
         translatedTextLabel.getStyleClass().add("text-output");
 
-        // Botón para copiar el texto traducido
         Button copyButton = new Button("Copiar");
-        copyButton.setDisable(true); // Deshabilitado hasta que haya texto traducido
+        copyButton.setDisable(true);
 
         translateButton.setOnAction(e -> {
             String inputLang = inputLangComboBox.getValue().equals("Español") ? "es" : "en";
