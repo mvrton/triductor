@@ -1,0 +1,48 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom, #ece9e6, #ffffff);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.label.welcome {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4a90e2;
+    -fx-padding: 10px 0;
+}
+
+.combo-box, .text-field {
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1px;
+}
+
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: #357ABD;
+}
+
+.text-output {
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+    -fx-font-style: italic;
+    -fx-wrap-text: true;
+}
