@@ -14,7 +14,9 @@ Puedes escribir en inglés o español, y obtener la traducción en cualquiera de
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/mvrton/triductor.git
+   
 2. Construye y ejecuta el proyecto con Maven:
-  
-  mvn clean install
-  mvn javafx:run
+   
+- mvn clean install
+- mvn javafx:run
+   
